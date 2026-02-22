@@ -12,8 +12,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("dtc_model.pkl")
-
+model = joblib.load("models/dtc_model.pkl")
 st.title("Machine Condition  Prediction")
 
 # Inputs (matching your new dataset columns exactly)
